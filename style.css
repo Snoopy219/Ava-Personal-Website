@@ -1,0 +1,184 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #4ABDAC; 
+}
+
+*{
+  margin : 0px;
+  padding : 0px;
+}
+
+main {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5%;
+  margin-right:5%;
+}
+/* STYLE TEXT */
+p {
+  color: #DFDCE3;
+  font-family: "georgia";
+}
+
+header {
+  text-align: center;
+  color: #FC4A1A;
+  font-family: "allura", cursive;
+  font-weight:bold;
+  background-image : linear-gradient(rgba(247, 183, 115, 0.61), #F7B773);
+  /*border : 30px solid #F7B773;*/
+  padding-bottom : 10px;
+}
+
+h4 {
+  color: #F7B773;
+  font-family: "georgia";
+  text-decoration: underline wavy #FC4A1A;
+  font-weight:bold;
+}
+/*home*/
+#intro{
+  width:50%;
+}
+
+/*portfolio*/
+#jsText{
+  float: left;
+  width : 100%;
+}
+
+#robotText{
+  float : right;
+  width : 100%;
+}
+
+#robotHead{
+  text-align : center;
+}
+
+#jsHead{
+  text-align : center;
+}
+
+/*news*/
+#mathText{
+  float: left;
+  width : 50%;
+}
+
+#bookText{
+  float : right;
+  width : 50%;
+}
+
+#soldierText{
+  float: left;
+  width : 50%;
+}
+
+/*links*/
+a:link{
+  color: #F7B773;
+  font-family: "georgia";
+  text-decoration: underline wavy #FC4A1A;
+  font-weight:bold;
+}
+
+a:visited{
+  color: #F7B773;
+  font-family: "georgia";
+  text-decoration: underline wavy #FC4A1A;
+  font-weight:bold;
+}
+
+a:active{
+  color: #F7B773;
+  font-family: "georgia";
+  text-decoration: underline wavy #FC4A1A;
+  font-weight:bold;
+}
+
+a:hover{
+  color: #DFDCE3;
+  font-family: "georgia";
+  text-decoration: underline wavy #FC4A1A;
+  font-weight:bold;
+}
+
+/* STYLE IMAGES */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width : 50%;
+}
+
+/*home*/
+#homePick{
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+#lake{
+  height: 200px;
+  float: right;
+  border-radius: 25%;
+}
+
+/*portfolio*/
+#jsPic{
+  float: right;
+  height: 200px;
+  border-radius: 25%;
+}
+
+#robotPic{
+  float:left;
+  height : 200px;
+  border-radius: 25%;
+}
+
+/*news*/
+#mathPic{
+  float: right;
+  height: 200px;
+  border-radius: 25%;
+}
+
+#bookPic{
+  float:left;
+  height : 200px;
+  border-radius: 25%;
+}
+
+#soldierPic{
+  float: right;
+  height: 200px;
+  border-radius: 25%;
+}
+
+img{
+  border : 3px dashed #FC4A1A;
+  margin:10px;
+}
+
+
+/* STYLE NAV BAR */
+
+ul{
+  text-align : center;
+  list-style-type: none;
+  background-color:#FC4A1A;
+  overflow: hidden;
+  padding : 1em;
+  margin-bottom : 20px;
+}
+
+li{
+  display: inline;
+}
+li a{
+  padding : 1em;
+
+}
